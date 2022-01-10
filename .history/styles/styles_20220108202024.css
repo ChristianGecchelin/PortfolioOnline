@@ -1,0 +1,120 @@
+:root {
+  --strong-orange: #f7931a;
+  --soft-orange: #ffe9d5;
+  --secondary-blue: #1a9af7;
+  --soft-blue: #e7f5ff;
+  --warm-black: #201e1c;
+  --black: #282623;
+  --grey: #bababa;
+  --off-white: #faf8f7;
+  --just-white: #fff;
+  --light-violet: #b0bbff;
+  --strong-violet: #5764b3;
+  --skin-color: #ffecb0;
+  --yellow-skin-color: #fff3c9;
+  --almost-brown: #b3a169;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+  font-family: "DM Sans", sans-serif;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 334px;
+  background: var(--light-violet);
+  text-align: center;
+}
+header nav {
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+  min-width: 288px;
+  height: 218px;
+  align-self: center;
+  text-align: center;
+  margin-top: -30px;
+}
+header nav h1 {
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 5rem;
+  color: #795548;
+}
+
+header nav .list-container-link {
+  margin-top: 20px;
+  list-style: none;
+}
+header nav .list-container-link a {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 2.4rem;
+  text-decoration: none;
+  color: var(--black);
+}
+
+header nav .header--nav-button {
+  position: absolute;
+  top: 270px;
+  left: calc(50% - 118px);
+  display: block;
+  margin-top: 35px;
+  padding: 15px;
+  width: 229px;
+  height: 48px;
+  background-color: var(--off-white);
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--black);
+  box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+  border: none;
+  border-radius: 5px;
+}
+header nav .header--nav-button span {
+  display: inline-block;
+  width: 13px;
+  height: 8px;
+  margin-left: 10px;
+  background-image: url(../assets/icons/down-arrow.svg);
+}
+main {
+  width: 100%;
+  height: auto;
+}
+main .principalContainer-mySelf {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  min-width: 320px;
+  height: auto;
+  text-align: center;
+}
+.principalContainer-mySelf--image .image-cv {
+  min-width: 320px;
+  height: 320px; /* luego en las otras resos lo agrando */
+  margin: 0 auto;
+  background-image: url(../assets/images/IMG_4340.JPG);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.principalContainer-mySelf--information {
+  width: 90%;
+  min-width: 288px;
+  max-width: 900px;
+  text-align: center;
+  align-self: center;
+}
+.principalContainer-mySelf--information h2 {
+  font-size: 2rem;
+  line-height: 3rem;
+}

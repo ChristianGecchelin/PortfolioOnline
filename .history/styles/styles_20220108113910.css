@@ -1,0 +1,89 @@
+:root {
+  --strong-orange: #f7931a;
+  --soft-orange: #ffe9d5;
+  --secondary-blue: #1a9af7;
+  --soft-blue: #e7f5ff;
+  --warm-black: #201e1c;
+  --black: #282623;
+  --grey: #bababa;
+  --off-white: #faf8f7;
+  --just-white: #fff;
+  --light-violet: #b0bbff;
+  --strong-violet: #5764b3;
+  --skin-color: #ffecb0;
+  --yellow-skin-color: #fff3c9;
+  --almost-brown: #b3a169;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+  font-family: "DM Sans", sans-serif;
+}
+header {
+  width: 100%;
+  min-width: 320px;
+  height: auto;
+}
+header nav {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  min-width: 320px;
+  height: 250px;
+  padding: 25px 0;
+  background-color: #b0bbff;
+}
+header nav h1 {
+  width: 40%;
+  min-width: 320px;
+  margin: 0 auto;
+  font-size: 3rem;
+  line-height: 5rem;
+  color: #795548;
+}
+header nav ul {
+  display: flex;
+  width: 50%;
+  min-width: 320px;
+  justify-content: end;
+}
+header nav ul li {
+  margin-right: 40px;
+  list-style: none;
+}
+header nav ul li a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: var(--warm-black);
+}
+header nav .header--button {
+  position: absolute;
+  top: 225px;
+  left: calc(50% - 118px);
+  display: block;
+  padding: 15px;
+  width: 229px;
+  height: 48px;
+  background-color: var(--off-white);
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--black);
+  box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+  border: none;
+  border-radius: 5px;
+}
+header nav .header--button span {
+  display: inline-block;
+  width: 13px;
+  height: 8px;
+  margin-left: 10px;
+  background-image: url(../assets/icons/down-arrow.svg);
+}

@@ -1,0 +1,42 @@
+:root {
+  --strong-orange: #f7931a;
+  --soft-orange: #ffe9d5;
+  --secondary-blue: #1a9af7;
+  --soft-blue: #e7f5ff;
+  --warm-black: #201e1c;
+  --black: #282623;
+  --grey: #bababa;
+  --off-white: #faf8f7;
+  --just-white: #fff;
+  --light-violet: #b0bbff;
+  --strong-violet: #5764b3;
+  --skin-color: #ffecb0;
+  --yellow-skin-color: #fff3c9;
+  --almost-brown: #b3a169;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+  font-family: "DM Sans", sans-serif;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: auto;
+  background: var(--light-violet);
+  text-align: center;
+}
+header nav {
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+  min-width: 288px;
+  height: 334px;
+  align-self: center;
+  margin-top: auto 0;
+}
